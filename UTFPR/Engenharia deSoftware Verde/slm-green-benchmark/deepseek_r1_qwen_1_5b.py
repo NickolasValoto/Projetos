@@ -302,5 +302,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    gpt2.main()
-    phi2.main()
+

@@ -1,0 +1,821 @@
+{
+  "model": "openai-community/gpt2",
+  "model_key": "gpt2",
+  "device": "cpu",
+  "total_queries": 90,
+  "total_emissions": 0.0019334568897031107,
+  "total_time_s": 603.4000341892242,
+  "avg_time_s_per_query": 6.704444824324714,
+  "query_history": [
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 27 + 58",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 27 + 58.5 + 2.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0",
+      "emissions": 2.13818051651746e-05,
+      "duration_s": 6.676171779632568,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 1
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 184 + 219",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 184 + 219 + 5 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1",
+      "emissions": 2.1321556683213752e-05,
+      "duration_s": 6.656998157501221,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 2
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 375 + 628",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 375 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 628 + 6",
+      "emissions": 2.1470248346868037e-05,
+      "duration_s": 6.699169397354126,
+      "tokens_input": 24,
+      "tokens_output": 128,
+      "timestamp": 3
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 42 + 97",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 42 + 97.5 + 1.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0.5 + 0",
+      "emissions": 2.1516729769837908e-05,
+      "duration_s": 6.709663152694702,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 4
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 815 + 164",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 815 + 164 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 634 + 6",
+      "emissions": 2.139042877133118e-05,
+      "duration_s": 6.67525577545166,
+      "tokens_input": 24,
+      "tokens_output": 128,
+      "timestamp": 5
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 99 - 27",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 99 - 27.\n\nThe following is a list of the most common errors in the C++ compiler.\n\nError Description\n\nThe following error is not found in the C++ compiler.\n\nThe following error is not found in the C++ compiler.\n\nThe following error is not found in the C++ compiler.\n\nThe following error is not found in the C++ compiler.\n\nThe following error is not found in the C++ compiler.\n\nThe following error is not found in the C++ compiler.\n\nThe following error is not found in the C++ compiler.\n\nThe following error is not",
+      "emissions": 2.1423033947135452e-05,
+      "duration_s": 6.68585205078125,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 6
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 450 - 128",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 450 - 128.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida",
+      "emissions": 2.1320006166851452e-05,
+      "duration_s": 6.6565611362457275,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 7
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 1000 - 487",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 1000 - 487.\n\nThe following is a list of the most popular and popular websites for the following languages:\n\nEnglish\n\nFrench\n\nGerman\n\nItalian\n\nSpanish\n\nSpanish-Brazilian\n\nSpanish-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian",
+      "emissions": 2.1415098410947598e-05,
+      "duration_s": 6.678961515426636,
+      "tokens_input": 24,
+      "tokens_output": 128,
+      "timestamp": 8
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 742 - 195",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 742 - 195.\n\nPorquemada, P. (1911). The Spanish language. In: P. Porquemada (ed.), The Spanish language. In: P. Porquemada (ed.), The Spanish language. In: P. Porquemada (ed.), The Spanish language. In: P. Porquemada (ed.), The Spanish language. In: P. Porquemada (ed.), The Spanish language. In: P. Porquemada (ed.), The Spanish language. In: P. Porquemada (ed.), The Spanish language. In: P.",
+      "emissions": 2.1564631048390015e-05,
+      "duration_s": 6.7297608852386475,
+      "tokens_input": 24,
+      "tokens_output": 128,
+      "timestamp": 9
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 600 - 289",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 600 - 289.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida",
+      "emissions": 2.2529504049353594e-05,
+      "duration_s": 7.026185750961304,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 10
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 14 × 16",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 14 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16.5 × 16",
+      "emissions": 2.144797689043171e-05,
+      "duration_s": 6.6969523429870605,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 11
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 27 × 34",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 27 × 34.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36.5 × 36",
+      "emissions": 2.1310202351975163e-05,
+      "duration_s": 6.6462788581848145,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 12
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 52 × 18",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 52 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18",
+      "emissions": 2.1452723907999013e-05,
+      "duration_s": 6.693078994750977,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 13
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 75 × 23",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 75 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23 × 23",
+      "emissions": 2.137478294859112e-05,
+      "duration_s": 6.666954517364502,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 14
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 128 × 19",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 128 × 19 × 16.5 × 8.5 × 5.5 × 2.5 × 1.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5 × 0.5",
+      "emissions": 2.125950564081709e-05,
+      "duration_s": 6.639225006103516,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 15
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 144 ÷ 12",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 144 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷ 12 ÷",
+      "emissions": 2.1512534145796123e-05,
+      "duration_s": 6.711197853088379,
+      "tokens_input": 24,
+      "tokens_output": 128,
+      "timestamp": 16
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 525 ÷ 21",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 525 ÷ 21.5.\n\nThe following is a list of the most popular and popular websites for the following languages:\n\nEnglish\n\nFrench\n\nGerman\n\nItalian\n\nSpanish\n\nSpanish-Brazilian\n\nSpanish-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-",
+      "emissions": 2.152836635985651e-05,
+      "duration_s": 6.719034910202026,
+      "tokens_input": 24,
+      "tokens_output": 128,
+      "timestamp": 17
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 1560 ÷ 24",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 1560 ÷ 24.00.\n\nThe following is a list of the most popular and popular websites for the following languages:\n\nEnglish\n\nFrench\n\nGerman\n\nItalian\n\nSpanish\n\nSpanish-Brazilian\n\nSpanish-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-",
+      "emissions": 2.1676178011110454e-05,
+      "duration_s": 6.761186122894287,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 18
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 1875 ÷ 15",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 1875 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 1575 ÷ 15",
+      "emissions": 2.1580608347553813e-05,
+      "duration_s": 6.737424612045288,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 19
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 980 ÷ 28",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 980 ÷ 28.5.2016.\n\n[1] http://www.cnn.com/2016/07/20/us/politics/politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and-politics-and",
+      "emissions": 2.1486281906556632e-05,
+      "duration_s": 6.703059196472168,
+      "tokens_input": 24,
+      "tokens_output": 128,
+      "timestamp": 20
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 15% de 240",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 15% de 240,000.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida de la vida.\n\nPorquemos de la vida de la",
+      "emissions": 2.14406269127195e-05,
+      "duration_s": 6.692731618881226,
+      "tokens_input": 24,
+      "tokens_output": 128,
+      "timestamp": 21
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 12% de 850",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 12% de 850,000.\n\nThe number of people who have been killed in the conflict has risen to more than 1.5 million.\n\nThe number of people who have been killed in the conflict has risen to more than 1.5 million.\n\nThe number of people who have been killed in the conflict has risen to more than 1.5 million.\n\nThe number of people who have been killed in the conflict has risen to more than 1.5 million.\n\nThe number of people who have been killed in the conflict has risen to more than 1.5 million.\n\nThe number of people who have been killed",
+      "emissions": 2.1617139428002245e-05,
+      "duration_s": 6.741754055023193,
+      "tokens_input": 24,
+      "tokens_output": 128,
+      "timestamp": 22
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 9% de 430",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 9% de 430,000.\n\nThe number of people who have been killed in the conflict has risen from 1.5 million in 2011 to 2.5 million in 2012.\n\nThe number of people killed in the conflict has risen from 1.5 million in 2011 to 2.5 million in 2012.\n\nThe number of people killed in the conflict has risen from 1.5 million in 2011 to 2.5 million in 2012.\n\nThe number of people killed in the conflict has risen from 1.5 million in 2011 to 2.5 million in 2012.\n\nThe number of people killed in the conflict has risen from 1",
+      "emissions": 2.133034200623141e-05,
+      "duration_s": 6.657975196838379,
+      "tokens_input": 24,
+      "tokens_output": 128,
+      "timestamp": 23
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 25% de 320",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 25% de 320,000.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida de la vida.\n\nPorquemos de la vida de la",
+      "emissions": 2.1424023961826264e-05,
+      "duration_s": 6.684995889663696,
+      "tokens_input": 24,
+      "tokens_output": 128,
+      "timestamp": 24
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 7% de 910",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 7% de 910,000.\n\nThe number of people who have been killed in the conflict in Syria has risen to more than 1.5 million, according to the UN.\n\nThe UN has said that more than 1.5 million people have been killed in the conflict in Syria, including more than 1.5 million children.\n\nThe UN has said that more than 1.5 million people have been killed in the conflict in Syria, including more than 1.5 million children.\n\nThe UN has said that more than 1.5 million people have been killed in the conflict in Syria, including more than 1.5 million children",
+      "emissions": 2.1390188938808518e-05,
+      "duration_s": 6.677649974822998,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 25
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 345 + 219 - 87",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 345 + 219 - 87.\n\nThe following is a list of the most common errors in the C++ compiler.\n\nThe following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in",
+      "emissions": 2.144742346437611e-05,
+      "duration_s": 6.690089225769043,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 26
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 720 - 295 + 84",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 720 - 295 + 84.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8.5 + 8",
+      "emissions": 2.1352201821648554e-05,
+      "duration_s": 6.665908575057983,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 27
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 1250 - 275 + 450",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 1250 - 275 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450 + 450",
+      "emissions": 2.1375172827332592e-05,
+      "duration_s": 6.6715874671936035,
+      "tokens_input": 26,
+      "tokens_output": 128,
+      "timestamp": 28
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 932 + 518 - 300",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 932 + 518 - 300.\n\nPorquemos de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida",
+      "emissions": 2.1458601501340754e-05,
+      "duration_s": 6.697011470794678,
+      "tokens_input": 27,
+      "tokens_output": 128,
+      "timestamp": 29
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 4500 - 1200 + 375",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 4500 - 1200 + 375 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300 + 300",
+      "emissions": 2.1519626735853257e-05,
+      "duration_s": 6.716153383255005,
+      "tokens_input": 26,
+      "tokens_output": 128,
+      "timestamp": 30
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (24 × 12) ÷ 8",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (24 × 12) ÷ 8.5 ÷ 2.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 ÷ 1.5 �",
+      "emissions": 2.1581455063738603e-05,
+      "duration_s": 6.736201286315918,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 31
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (75 × 9) ÷ 15",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (75 × 9) ÷ 15.5 (1.5 × 10) ÷ 15.5 (1.5 × 10) ÷ 15.5 (1.5 × 10) ÷ 15.5 (1.5 × 10) ÷ 15.5 (1.5 × 10) ÷ 15.5 (1.5 × 10) ÷ 15.5 (1.5 × 10) ÷ 15.5 (1.5 × 10) ÷ 15.5 (1.5 × 10) ÷ 15.5 (1.5 × 10) ÷ 15.5 (1.5 × 10",
+      "emissions": 2.1660014178580533e-05,
+      "duration_s": 6.757061243057251,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 32
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (132 ÷ 6) × 14",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (132 ÷ 6) × 14.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 ÷ 6.5 �",
+      "emissions": 2.1389232367858375e-05,
+      "duration_s": 6.681687355041504,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 33
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (64 ÷ 8) × 22",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (64 ÷ 8) × 22 ÷ 8.\n\n(64 ÷ 8) × 22 ÷ 8. (64 ÷ 8) × 22 ÷ 8. (64 ÷ 8) × 22 ÷ 8. (64 ÷ 8) × 22 ÷ 8. (64 ÷ 8) × 22 ÷ 8. (64 ÷ 8) × 22 ÷ 8. (64 ÷ 8) × 22 ÷ 8. (64 ÷ 8) × 22 ÷ 8. (64 ÷ 8) × 22 ÷ 8. (64 ÷ 8) × 22 ÷ 8. (64",
+      "emissions": 2.1461375581527813e-05,
+      "duration_s": 6.693907260894775,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 34
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (85 × 6) ÷ 10",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (85 × 6) ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷ 10 ÷",
+      "emissions": 2.1587528506257308e-05,
+      "duration_s": 6.737921953201294,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 35
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 2³",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 2³.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida",
+      "emissions": 2.1457890745800678e-05,
+      "duration_s": 6.693185091018677,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 36
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 5³",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 5³.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida",
+      "emissions": 2.1557743027618895e-05,
+      "duration_s": 6.731927394866943,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 37
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 7²",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 7².\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida",
+      "emissions": 2.1473184788700135e-05,
+      "duration_s": 6.698259353637695,
+      "tokens_input": 22,
+      "tokens_output": 128,
+      "timestamp": 38
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 12²",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 12².\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida",
+      "emissions": 2.161681779731505e-05,
+      "duration_s": 6.746748208999634,
+      "tokens_input": 22,
+      "tokens_output": 128,
+      "timestamp": 39
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 15²",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 15².\n\nThe following is a list of the most common errors in the C++ compiler.\n\nThe following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in",
+      "emissions": 2.1646104394771838e-05,
+      "duration_s": 6.751423597335815,
+      "tokens_input": 22,
+      "tokens_output": 128,
+      "timestamp": 40
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √81",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √81.5% (1.5%) √81.5% (1.5%) √81.5% (1.5%) √81.5% (1.5%) √81.5% (1.5%) √81.5% (1.5%) √81.5% (1.5%) √81.5% (1.5%) √81.5% (1.5%) √81.5% (1.5%) √81.5% (1.5%) √81.5% (1.5",
+      "emissions": 2.1635549638239018e-05,
+      "duration_s": 6.757071495056152,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 41
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √256",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √256.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24",
+      "emissions": 2.1542551605483737e-05,
+      "duration_s": 6.718963861465454,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 42
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √169",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √169.5.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "emissions": 2.1641457659383774e-05,
+      "duration_s": 6.761221885681152,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 43
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √225",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √225.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24.0.0.0/24",
+      "emissions": 2.1516593656236873e-05,
+      "duration_s": 6.713061332702637,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 44
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √400",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √400.\n\nThe following is a list of the most common errors in the C++ compiler.\n\nThe following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in the C++ compiler. The following is a list of the most common errors in",
+      "emissions": 2.1612608054864556e-05,
+      "duration_s": 6.750485897064209,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 45
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 34.5 + 28.7",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 34.5 + 28.7.\n\nThe following table shows the number of days that the number of days in the week is greater than the number of days in the month.\n\nThe number of days in the week is greater than the number of days in the month.\n\nThe number of days in the week is greater than the number of days in the month.\n\nThe number of days in the week is greater than the number of days in the month.\n\nThe number of days in the week is greater than the number of days in the month.\n\nThe number of days in the week is greater than the number of days in the",
+      "emissions": 2.1562501868765717e-05,
+      "duration_s": 6.724516153335571,
+      "tokens_input": 27,
+      "tokens_output": 128,
+      "timestamp": 46
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 125.25 + 89.75",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 125.25 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75 + 89.75",
+      "emissions": 2.1650509898850574e-05,
+      "duration_s": 6.760533094406128,
+      "tokens_input": 27,
+      "tokens_output": 128,
+      "timestamp": 47
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 90.6 - 45.3",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 90.6 - 45.3.\n\nThe following table shows the average number of days in the year for the number of days in the year for the number of days in the year for the number of days in the year for the number of days in the year for the number of days in the year for the number of days in the year for the number of days in the year for the number of days in the year for the number of days in the year for the number of days in the year for the number of days in the year for the number of days in the year for the number of days in the year for the number of days in the year for",
+      "emissions": 2.1542204999845503e-05,
+      "duration_s": 6.722074508666992,
+      "tokens_input": 27,
+      "tokens_output": 128,
+      "timestamp": 48
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 300.75 - 128.40",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 300.75 - 128.40.\n\nThe following table shows the number of days that the number of days in the month is equal to the number of days in the year.\n\nMonth Number of Days in the Month Year Number of Days in the Month Year Number of Days in the Month Year Number of Days in the Month Year Number of Days in the Month Year Number of Days in the Month Year Number of Days in the Month Year Number of Days in the Month Year Number of Days in the Month Year Number of Days in the Month Year Number of Days in the Month Year Number of Days in the Month Year Number of Days in the Month Year Number of Days in",
+      "emissions": 2.1373337528067924e-05,
+      "duration_s": 6.67253303527832,
+      "tokens_input": 27,
+      "tokens_output": 128,
+      "timestamp": 49
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 15.5 × 4.2",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 15.5 × 4.2 × 3.5 cm.\n\nThe following table shows the results of the study.\n\nTable 1. Results of the study.\n\nTable 2. Results of the study.\n\nTable 3. Results of the study.\n\nTable 4. Results of the study.\n\nTable 5. Results of the study.\n\nTable 6. Results of the study.\n\nTable 7. Results of the study.\n\nTable 8. Results of the study.\n\nTable 9. Results of the study.\n\nTable 10. Results of the study.\n\nTable 11. Results of the study.",
+      "emissions": 2.141227612933355e-05,
+      "duration_s": 6.680234670639038,
+      "tokens_input": 27,
+      "tokens_output": 128,
+      "timestamp": 50
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 84.4 ÷ 4",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 84.4 ÷ 4.5 ÷ 2.5 ÷ 1.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 ÷ 0.5 �",
+      "emissions": 2.1386844352816338e-05,
+      "duration_s": 6.677192449569702,
+      "tokens_input": 26,
+      "tokens_output": 128,
+      "timestamp": 51
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 125.6 ÷ 3.2",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 125.6 ÷ 3.2 ÷ 2.8 ÷ 1.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0.8 ÷ 0",
+      "emissions": 2.151333730472526e-05,
+      "duration_s": 6.710942506790161,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 52
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 18.75 ÷ 2.5",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 18.75 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2.5 ÷ 2",
+      "emissions": 2.148591269727889e-05,
+      "duration_s": 6.70720100402832,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 53
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 430.5 ÷ 12",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 430.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 ÷ 12.5 �",
+      "emissions": 2.1435502533898474e-05,
+      "duration_s": 6.688985347747803,
+      "tokens_input": 26,
+      "tokens_output": 128,
+      "timestamp": 54
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 96.3 ÷ 3.1",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 96.3 ÷ 3.1.\n\nThe following table shows the number of days that the number of days in the year is equal to the number of days in the year.\n\nYear Number of days in the year Number of days in the year Number of days in the year Number of days in the year Number of days in the year Number of days in the year Number of days in the year Number of days in the year Number of days in the year Number of days in the year Number of days in the year Number of days in the year Number of days in the year Number of days in the year Number of days in the year Number of days in the",
+      "emissions": 2.1283708176586487e-05,
+      "duration_s": 6.646209716796875,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 55
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (15% de 360) + 42",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (15% de 360) + 42% de 360.\n\n(15% de 360) + 42% de 360. (15% de 360) + 42% de 360. (15% de 360) + 42% de 360. (15% de 360) + 42% de 360. (15% de 360) + 42% de 360. (15% de 360) + 42% de 360. (15% de 360) + 42% de 360. (15% de 360) + 42% de 360. (15% de 360) + 42% de 360. (15% de 360) + 42% de 360. (15",
+      "emissions": 2.1544772620238016e-05,
+      "duration_s": 6.7187628746032715,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 56
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (8% de 500) + 37",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (8% de 500) + 37% (1.5% de 500)\n\n(8% de 500) + 37% (1.5% de 500) + 37% (1.5% de 500) + 37% (1.5% de 500) + 37% (1.5% de 500) + 37% (1.5% de 500) + 37% (1.5% de 500) + 37% (1.5% de 500) + 37% (1.5% de 500) + 37% (1.5% de 500) + 37% (1.5% de 500) +",
+      "emissions": 2.154928907184797e-05,
+      "duration_s": 6.728826284408569,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 57
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (12% de 720) - 18",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (12% de 720) - 18% de 720.\n\n(12% de 720) - 18% de 720. (12% de 720) - 18% de 720. (12% de 720) - 18% de 720. (12% de 720) - 18% de 720. (12% de 720) - 18% de 720. (12% de 720) - 18% de 720. (12% de 720) - 18% de 720. (12% de 720) - 18% de 720. (12% de 720) - 18% de 720. (12% de 720) - 18% de 720. (12",
+      "emissions": 2.16550133302831e-05,
+      "duration_s": 6.756096363067627,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 58
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (5% de 840) + 60",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (5% de 840) + 60% de 890.\n\n(5% de 840) + 60% de 890. (5% de 840) + 60% de 890. (5% de 840) + 60% de 890. (5% de 840) + 60% de 890. (5% de 840) + 60% de 890. (5% de 840) + 60% de 890. (5% de 840) + 60% de 890. (5% de 840) + 60% de 890. (5% de 840) + 60% de 890. (5% de",
+      "emissions": 2.1563683771385118e-05,
+      "duration_s": 6.730358362197876,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 59
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (9% de 950) - 25",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (9% de 950) - 25% de 950.\n\n(9% de 950) - 25% de 950. (9% de 950) - 25% de 950. (9% de 950) - 25% de 950. (9% de 950) - 25% de 950. (9% de 950) - 25% de 950. (9% de 950) - 25% de 950. (9% de 950) - 25% de 950. (9% de 950) - 25% de 950. (9% de 950) - 25% de 950. (9% de 950) - 25% de 950. (9",
+      "emissions": 2.1390078570502576e-05,
+      "duration_s": 6.671135425567627,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 60
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 42 + 18 × 5",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 42 + 18 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5",
+      "emissions": 2.1696570676545784e-05,
+      "duration_s": 6.777006387710571,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 61
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 120 - 15 × 4",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 120 - 15 × 4.5 × 5.5 × 6.5 × 7.5 × 8.5 × 9.5 × 10.5 × 11.5 × 12.5 × 13.5 × 14.5 × 15.5 × 16.5 × 17.5 × 18.5 × 19.5 × 20.5 × 21.5 × 22.5 × 23.5 × 24.5 × 25.5 × 26.5 × 27.5 × 28.5 × 29.5 × 30.5 × 31.5 × 32.5 × 33.5 × 34.5 × 35.5 × 36",
+      "emissions": 2.1422006347171008e-05,
+      "duration_s": 6.681133985519409,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 62
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 35 × 6 + 48",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 35 × 6 + 48 × 6 = 1.5 × 10−6.\n\nThe results of the study are presented in Table 1.\n\nTable 1. Results of the study\n\nThe mean age of the participants was 21.5 years (range, 18–29 years). The mean BMI was 26.5 kg/m2 (range, 25–29 kg/m2). The mean height was 6.5 cm (range, 5–7 cm). The mean weight was 1.5 kg (range, 1–2.5 kg). The mean height was 6.5 cm (range, 5–7 cm). The mean",
+      "emissions": 2.1606936637147873e-05,
+      "duration_s": 6.749016046524048,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 63
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 200 ÷ 5 + 37",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 200 ÷ 5 + 37 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷ 5 ÷",
+      "emissions": 2.144648656856006e-05,
+      "duration_s": 6.6895833015441895,
+      "tokens_input": 26,
+      "tokens_output": 128,
+      "timestamp": 64
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 300 ÷ 12 - 4",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 300 ÷ 12 - 4.\n\nPorque de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la",
+      "emissions": 2.183581710210282e-05,
+      "duration_s": 6.817078113555908,
+      "tokens_input": 26,
+      "tokens_output": 128,
+      "timestamp": 65
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 3⁴",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 3⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴⁴",
+      "emissions": 2.148551627285913e-05,
+      "duration_s": 6.701894760131836,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 66
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 4⁵",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 4⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵⁵",
+      "emissions": 2.1412691928269998e-05,
+      "duration_s": 6.691461801528931,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 67
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 6³",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 6³.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida",
+      "emissions": 2.142870017430999e-05,
+      "duration_s": 6.682417392730713,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 68
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 9² + 18",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 9² + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18.5 + 18",
+      "emissions": 2.1393886189815408e-05,
+      "duration_s": 6.680253505706787,
+      "tokens_input": 24,
+      "tokens_output": 128,
+      "timestamp": 69
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 5² + 7²",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 5² + 7² + 8² + 9² + 10² + 11² + 12² + 13² + 14² + 15² + 16² + 17² + 18² + 19² + 20² + 21² + 22² + 23² + 24² + 25² + 26² + 27² + 28² + 29² + 30² + 31² + 32² + 33² + 34² + 35² + 36² + 37² + 38² + 39² + 40² + 41² + 42² + 43² + 44² + 45² + 46² + 47² + 48² + 49² + 50",
+      "emissions": 2.1484671195786775e-05,
+      "duration_s": 6.699387311935425,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 70
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √196 + 25",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √196 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25.5 + 25",
+      "emissions": 2.148071409300268e-05,
+      "duration_s": 6.709624528884888,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 71
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √144 + 36",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √144 + 36 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1",
+      "emissions": 2.1369084851277353e-05,
+      "duration_s": 6.665120363235474,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 72
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 50 + √121",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 50 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121 + √121",
+      "emissions": 2.1407191275509226e-05,
+      "duration_s": 6.683753490447998,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 73
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √361 - 9",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √361 - 9.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1.5 - 1",
+      "emissions": 2.1398784319076124e-05,
+      "duration_s": 6.67344331741333,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 74
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √289 + 17",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √289 + 17.5 + 2.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1",
+      "emissions": 2.137655933755034e-05,
+      "duration_s": 6.6748645305633545,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 75
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 2800 ÷ 14",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 2800 ÷ 14.00.\n\nThe following is a list of the most popular and popular websites for the following languages:\n\nEnglish\n\nFrench\n\nGerman\n\nItalian\n\nSpanish\n\nSpanish-Brazilian\n\nSpanish-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-Brazilian-",
+      "emissions": 2.143520121749137e-05,
+      "duration_s": 6.688237905502319,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 76
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 4500 ÷ 25",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 4500 ÷ 25,000.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida.\n\nPorquemos de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la",
+      "emissions": 2.1648191350229736e-05,
+      "duration_s": 6.756699323654175,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 77
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 8100 ÷ 18",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 8100 ÷ 18.00.\n\nPorque de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida de la vida",
+      "emissions": 2.1336923558175978e-05,
+      "duration_s": 6.654033422470093,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 78
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 7200 ÷ 16",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 7200 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16000 ÷ 16",
+      "emissions": 2.1462652127664456e-05,
+      "duration_s": 6.701395750045776,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 79
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 9600 ÷ 32",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 9600 ÷ 32000 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2200 ÷ 2",
+      "emissions": 2.1292193133912748e-05,
+      "duration_s": 6.64433217048645,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 80
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 125 × 24",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 125 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24 × 24",
+      "emissions": 2.1397499183905656e-05,
+      "duration_s": 6.680712699890137,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 81
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 84 × 37",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 84 × 37.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10",
+      "emissions": 2.1484263871171383e-05,
+      "duration_s": 6.702579736709595,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 82
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 96 × 18",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 96 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18.5 × 18",
+      "emissions": 2.1270391698957674e-05,
+      "duration_s": 6.642280101776123,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 83
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 52 × 46",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 52 × 46.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10",
+      "emissions": 2.1346045138481605e-05,
+      "duration_s": 6.661592483520508,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 84
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 73 × 29",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 73 × 29.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10.5 × 10",
+      "emissions": 2.1409825859943747e-05,
+      "duration_s": 6.684631109237671,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 85
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (320 ÷ 8) + 47",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (320 ÷ 8) + 47 ÷ 8.\n\n(320 ÷ 8) + 47 ÷ 8. ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷",
+      "emissions": 2.1371610231201852e-05,
+      "duration_s": 6.66547966003418,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 86
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (480 ÷ 12) - 25",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (480 ÷ 12) - 25 ÷ 12.\n\n(480 ÷ 12) - 25 ÷ 12. ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷",
+      "emissions": 2.1424591407958508e-05,
+      "duration_s": 6.690858364105225,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 87
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (1500 ÷ 30) + 62",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (1500 ÷ 30) + 62.5 ÷ 30.\n\n(1500 ÷ 30) + 62.5 ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷ 30. ÷",
+      "emissions": 2.1527795619088884e-05,
+      "duration_s": 6.712372779846191,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 88
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (600 ÷ 15) + 18",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (600 ÷ 15) + 18 ÷ 15.\n\n(600 ÷ 15) + 18 ÷ 15. ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷ ÷",
+      "emissions": 2.1369743433166328e-05,
+      "duration_s": 6.6777496337890625,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 89
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (2400 ÷ 50) - 10",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (2400 ÷ 50) - 10.00 ÷ 50.00\n\n(2400 ÷ 50) - 10.00 ÷ 50.00 (2400 ÷ 50) - 10.00 ÷ 50.00 (2400 ÷ 50) - 10.00 ÷ 50.00 (2400 ÷ 50) - 10.00 ÷ 50.00 (2400 ÷ 50) - 10.00 ÷ 50.00 (2400 ÷ 50) - 10.00 ÷ 50.00 (2400 ÷ 50) - 10.00 ÷ 50.00 (2400 ÷ 50)",
+      "emissions": 2.138771451404257e-05,
+      "duration_s": 6.67148232460022,
+      "tokens_input": 29,
+      "tokens_output": 128,
+      "timestamp": 90
+    }
+  ]
+}

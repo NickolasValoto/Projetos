@@ -1,0 +1,821 @@
+{
+  "model": "microsoft/phi-2",
+  "model_key": "phi2",
+  "device": "cpu",
+  "total_queries": 90,
+  "total_emissions": 0.006646946887598228,
+  "total_time_s": 2065.376980781555,
+  "avg_time_s_per_query": 22.94863311979506,
+  "query_history": [
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 27 + 58",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 27 + 58 = 85.\n",
+      "emissions": 3.670335832521259e-05,
+      "duration_s": 11.421257495880127,
+      "tokens_input": 23,
+      "tokens_output": 5,
+      "timestamp": 1
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 184 + 219",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 184 + 219 = 413.\n",
+      "emissions": 3.643863377333674e-05,
+      "duration_s": 11.334106922149658,
+      "tokens_input": 23,
+      "tokens_output": 5,
+      "timestamp": 2
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 375 + 628",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 375 + 628 = 953.\n",
+      "emissions": 3.747201167467725e-05,
+      "duration_s": 11.661810398101807,
+      "tokens_input": 24,
+      "tokens_output": 6,
+      "timestamp": 3
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 42 + 97",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 42 + 97 = 139.\n",
+      "emissions": 3.73401140412027e-05,
+      "duration_s": 11.609881162643433,
+      "tokens_input": 23,
+      "tokens_output": 5,
+      "timestamp": 4
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 815 + 164",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 815 + 164 = 979.\n",
+      "emissions": 3.9417112870121966e-05,
+      "duration_s": 12.261843204498291,
+      "tokens_input": 24,
+      "tokens_output": 6,
+      "timestamp": 5
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 99 - 27",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 99 - 27 = 72.\n",
+      "emissions": 3.7692680666297e-05,
+      "duration_s": 11.720778465270996,
+      "tokens_input": 23,
+      "tokens_output": 5,
+      "timestamp": 6
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 450 - 128",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 450 - 128 = 322.\n",
+      "emissions": 3.7267912119247605e-05,
+      "duration_s": 11.595382690429688,
+      "tokens_input": 23,
+      "tokens_output": 5,
+      "timestamp": 7
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 1000 - 487",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 1000 - 487 = 513.\n\nQuestion 3:\n\na) A possible number line is:\n\n<img src=\"https://i.imgur.com/0w0Z0y0.png\" width=\"400\">\n\nb) The fraction that corresponds to the point on the number line is 3/4.\n\nc) To find the fraction that is equivalent to 3/4, we can multiply or divide both the numerator and the denominator by the same number. For example, we can multiply by 2 to get 6/8, or divide by 2 to get 3/8.\n\nd",
+      "emissions": 0.00024567143063443614,
+      "duration_s": 76.26813340187073,
+      "tokens_input": 24,
+      "tokens_output": 128,
+      "timestamp": 8
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 742 - 195",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 742 - 195 = 547.\n",
+      "emissions": 3.6836001480337016e-05,
+      "duration_s": 11.4613778591156,
+      "tokens_input": 24,
+      "tokens_output": 6,
+      "timestamp": 9
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 600 - 289",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 600 - 289 = 311.\n",
+      "emissions": 3.723452031782015e-05,
+      "duration_s": 11.575282573699951,
+      "tokens_input": 23,
+      "tokens_output": 5,
+      "timestamp": 10
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 14 × 16",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 14 × 16 = 224.\n",
+      "emissions": 3.694604740120916e-05,
+      "duration_s": 11.497954368591309,
+      "tokens_input": 23,
+      "tokens_output": 5,
+      "timestamp": 11
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 27 × 34",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 27 × 34 = 918.\n",
+      "emissions": 3.8384667083730896e-05,
+      "duration_s": 11.935842037200928,
+      "tokens_input": 23,
+      "tokens_output": 6,
+      "timestamp": 12
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 52 × 18",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 52 × 18 = 936.\n",
+      "emissions": 3.755200600920808e-05,
+      "duration_s": 11.69021463394165,
+      "tokens_input": 23,
+      "tokens_output": 6,
+      "timestamp": 13
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 75 × 23",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 75 × 23 = 1725.\n",
+      "emissions": 3.8958428212071916e-05,
+      "duration_s": 12.110323905944824,
+      "tokens_input": 23,
+      "tokens_output": 6,
+      "timestamp": 14
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 128 × 19",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 128 × 19 = 2512.\n",
+      "emissions": 3.8750653610366764e-05,
+      "duration_s": 12.058097124099731,
+      "tokens_input": 23,
+      "tokens_output": 6,
+      "timestamp": 15
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 144 ÷ 12",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 144 ÷ 12 = 12.\n",
+      "emissions": 3.8568159006947157e-05,
+      "duration_s": 11.989269018173218,
+      "tokens_input": 24,
+      "tokens_output": 5,
+      "timestamp": 16
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 525 ÷ 21",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 525 ÷ 21 = 25.\n",
+      "emissions": 3.623180037292539e-05,
+      "duration_s": 11.277201652526855,
+      "tokens_input": 24,
+      "tokens_output": 5,
+      "timestamp": 17
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 1560 ÷ 24",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 1560 ÷ 24 = 65.\n",
+      "emissions": 3.696486167955778e-05,
+      "duration_s": 11.50056767463684,
+      "tokens_input": 25,
+      "tokens_output": 5,
+      "timestamp": 18
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 1875 ÷ 15",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 1875 ÷ 15 =?\n",
+      "emissions": 3.77535953795035e-05,
+      "duration_s": 11.75320029258728,
+      "tokens_input": 25,
+      "tokens_output": 4,
+      "timestamp": 19
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 980 ÷ 28",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 980 ÷ 28 = 35.\n",
+      "emissions": 3.879655114130443e-05,
+      "duration_s": 12.059407949447632,
+      "tokens_input": 24,
+      "tokens_output": 5,
+      "timestamp": 20
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 15% de 240",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 15% de 240 = 36.\n",
+      "emissions": 3.8922626278159735e-05,
+      "duration_s": 12.1133553981781,
+      "tokens_input": 24,
+      "tokens_output": 5,
+      "timestamp": 21
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 12% de 850",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 12% de 850.\n",
+      "emissions": 3.517661051337172e-05,
+      "duration_s": 10.93761157989502,
+      "tokens_input": 24,
+      "tokens_output": 3,
+      "timestamp": 22
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 9% de 430",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 9% de 430 = 36.\n",
+      "emissions": 3.8616506397488176e-05,
+      "duration_s": 12.015520811080933,
+      "tokens_input": 24,
+      "tokens_output": 5,
+      "timestamp": 23
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 25% de 320",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 25% de 320 = 80.\n",
+      "emissions": 3.8470359499214234e-05,
+      "duration_s": 11.959752321243286,
+      "tokens_input": 24,
+      "tokens_output": 5,
+      "timestamp": 24
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 7% de 910",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 7% de 910.\n",
+      "emissions": 3.6648561628025816e-05,
+      "duration_s": 11.412472009658813,
+      "tokens_input": 25,
+      "tokens_output": 3,
+      "timestamp": 25
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 345 + 219 - 87",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 345 + 219 - 87 =?\n",
+      "emissions": 3.819172510333147e-05,
+      "duration_s": 11.872166872024536,
+      "tokens_input": 25,
+      "tokens_output": 4,
+      "timestamp": 26
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 720 - 295 + 84",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 720 - 295 + 84 = 519.\n",
+      "emissions": 4.113134200977356e-05,
+      "duration_s": 12.793304443359375,
+      "tokens_input": 25,
+      "tokens_output": 6,
+      "timestamp": 27
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 1250 - 275 + 450",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 1250 - 275 + 450 = 1525.\n",
+      "emissions": 4.2908739337707114e-05,
+      "duration_s": 13.34347677230835,
+      "tokens_input": 26,
+      "tokens_output": 6,
+      "timestamp": 28
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 932 + 518 - 300",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 932 + 518 - 300 = 932.\n",
+      "emissions": 4.4269012910865315e-05,
+      "duration_s": 13.765039920806885,
+      "tokens_input": 27,
+      "tokens_output": 6,
+      "timestamp": 29
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 4500 - 1200 + 375",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 4500 - 1200 + 375 = 2925.\n",
+      "emissions": 4.187433540453025e-05,
+      "duration_s": 13.019847631454468,
+      "tokens_input": 26,
+      "tokens_output": 6,
+      "timestamp": 30
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (24 × 12) ÷ 8",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (24 × 12) ÷ 8 = 36.\n",
+      "emissions": 4.2379142712037075e-05,
+      "duration_s": 13.183407306671143,
+      "tokens_input": 28,
+      "tokens_output": 5,
+      "timestamp": 31
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (75 × 9) ÷ 15",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (75 × 9) ÷ 15 = 45.\n",
+      "emissions": 4.360442781434077e-05,
+      "duration_s": 13.558844327926636,
+      "tokens_input": 28,
+      "tokens_output": 5,
+      "timestamp": 32
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (132 ÷ 6) × 14",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (132 ÷ 6) × 14 = (22) × 14 = 308.\n\nQuestion 3:\n\na) A possible number line is:\n\n<img src=\"https://i.imgur.com/0w0Z0y0.png\" width=\"400\">\n\nb) The fraction that corresponds to the point on the number line is 3/4.\n\nc) To find the fraction that is equivalent to 3/4, we can multiply or divide both the numerator and the denominator by the same number. For example, we can multiply by 2 to get 6/8, or divide by 2 to get 3/",
+      "emissions": 0.0002529440897159827,
+      "duration_s": 78.52947235107422,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 33
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (64 ÷ 8) × 22",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (64 ÷ 8) × 22 = 176.\n",
+      "emissions": 4.307148714350006e-05,
+      "duration_s": 13.389416456222534,
+      "tokens_input": 28,
+      "tokens_output": 5,
+      "timestamp": 34
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (85 × 6) ÷ 10",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (85 × 6) ÷ 10 = 51.\n",
+      "emissions": 4.2347153221903196e-05,
+      "duration_s": 13.172995328903198,
+      "tokens_input": 28,
+      "tokens_output": 5,
+      "timestamp": 35
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 2³",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 2³ = 8.\n\nQuestion 3:\n\na) O que há deveria ter o autor para que seja um texto de opinião?\n\nO autor deve ter que ter um texto de opinião para expresar sua opinião sobre o tema, utilizar argumentos e evidências para apoyar sua opinião, y usar un tono e un estilo de oracion para persuadir a leitura.\n\nb) O autor utiliza argumentos e evidências para",
+      "emissions": 0.00024269498435809924,
+      "duration_s": 75.33958458900452,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 36
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 5³",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 5³ = 125.\n",
+      "emissions": 3.6531034407525345e-05,
+      "duration_s": 11.373742818832397,
+      "tokens_input": 23,
+      "tokens_output": 5,
+      "timestamp": 37
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 7²",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 7² = 49.\n",
+      "emissions": 3.489153043337252e-05,
+      "duration_s": 10.847805976867676,
+      "tokens_input": 22,
+      "tokens_output": 5,
+      "timestamp": 38
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 12²",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 12² = 144.\n",
+      "emissions": 3.785429102823889e-05,
+      "duration_s": 11.776120901107788,
+      "tokens_input": 22,
+      "tokens_output": 5,
+      "timestamp": 39
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 15²",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 15² = 225.\n",
+      "emissions": 3.290515978911035e-05,
+      "duration_s": 10.237146854400635,
+      "tokens_input": 22,
+      "tokens_output": 5,
+      "timestamp": 40
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √81",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √81 = 9.\n",
+      "emissions": 3.687732175875295e-05,
+      "duration_s": 11.479110717773438,
+      "tokens_input": 23,
+      "tokens_output": 5,
+      "timestamp": 41
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √256",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √256 = 16.\n",
+      "emissions": 3.797347690414701e-05,
+      "duration_s": 11.807607650756836,
+      "tokens_input": 23,
+      "tokens_output": 5,
+      "timestamp": 42
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √169",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √169 = 13.\n",
+      "emissions": 3.3759248581689724e-05,
+      "duration_s": 10.506035804748535,
+      "tokens_input": 23,
+      "tokens_output": 5,
+      "timestamp": 43
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √225",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √225 = 15.\n",
+      "emissions": 3.7271906818258406e-05,
+      "duration_s": 11.592906713485718,
+      "tokens_input": 23,
+      "tokens_output": 5,
+      "timestamp": 44
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √400",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √400 = 20.\n",
+      "emissions": 3.663263518023185e-05,
+      "duration_s": 11.395804405212402,
+      "tokens_input": 23,
+      "tokens_output": 5,
+      "timestamp": 45
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 34.5 + 28.7",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 34.5 + 28.7 = 63.2.\n",
+      "emissions": 4.297761862715957e-05,
+      "duration_s": 13.357431888580322,
+      "tokens_input": 27,
+      "tokens_output": 7,
+      "timestamp": 46
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 125.25 + 89.75",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 125.25 + 89.75 = 215.00.\n",
+      "emissions": 4.536331483569735e-05,
+      "duration_s": 14.110227584838867,
+      "tokens_input": 27,
+      "tokens_output": 7,
+      "timestamp": 47
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 90.6 - 45.3",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 90.6 - 45.3 = 45.3.\n",
+      "emissions": 4.5673477715370525e-05,
+      "duration_s": 14.201025247573853,
+      "tokens_input": 27,
+      "tokens_output": 7,
+      "timestamp": 48
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 300.75 - 128.40",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 300.75 - 128.40 = 172.35.\n\nExercise 2:\n\nA company is planning to launch a new product and wants to estimate the potential revenue it can generate. The company expects to sell the product for $50 per unit and has projected a sales volume of 10,000 units in the first year. However, the company also needs to consider the cost of production, which is estimated to be $30 per unit. Calculate the potential revenue and the profit for the first year.\n\nSolution:\n\nTo calculate the potential revenue, we need to multiply the selling price per unit by the projected sales volume. In this case,",
+      "emissions": 0.00024907929838875005,
+      "duration_s": 77.33677196502686,
+      "tokens_input": 27,
+      "tokens_output": 128,
+      "timestamp": 49
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 15.5 × 4.2",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 15.5 × 4.2 = 66.3.\n\nQuestion 3:\n\na) A possible number line is shown below.\n\n<img src=\"https://i.imgur.com/0w0Z0y0.png\" width=\"400\">\n\nb) The fraction that corresponds to the point A is 3/8.\n\nc) The fraction that corresponds to the point B is 5/8.\n\nd) The fraction that corresponds to the point C is 1/2.\n\ne) The fraction that corresponds to the point D is 7/8.\n\nf) The fraction that corresponds to the",
+      "emissions": 0.0002273749046531853,
+      "duration_s": 70.59069466590881,
+      "tokens_input": 27,
+      "tokens_output": 128,
+      "timestamp": 50
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 84.4 ÷ 4",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 84.4 ÷ 4 = 21.1.\n",
+      "emissions": 4.46219497123954e-05,
+      "duration_s": 13.878679037094116,
+      "tokens_input": 26,
+      "tokens_output": 7,
+      "timestamp": 51
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 125.6 ÷ 3.2",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 125.6 ÷ 3.2 = 39.375.\n",
+      "emissions": 5.0055066129785046e-05,
+      "duration_s": 15.560835599899292,
+      "tokens_input": 28,
+      "tokens_output": 7,
+      "timestamp": 52
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 18.75 ÷ 2.5",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 18.75 ÷ 2.5 = 7.5.\n",
+      "emissions": 4.7022881605200814e-05,
+      "duration_s": 14.625394821166992,
+      "tokens_input": 28,
+      "tokens_output": 7,
+      "timestamp": 53
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 430.5 ÷ 12",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 430.5 ÷ 12 = 35.625.\n\nQuestion 3:\n\na) A possible number line is:\n\n<img src=\"https://i.imgur.com/0w0Z0wO.png\" width=\"400\">\n\nb) The fraction that corresponds to the point on the number line is 3/4.\n\nc) To find the fraction that is equivalent to 3/4 with a denominator of 12, we can multiply both the numerator and the denominator by 3. This gives us:\n\n3/4 x 3/3 = 9/12\n\nd) To find the",
+      "emissions": 0.00025187958132343995,
+      "duration_s": 78.19820618629456,
+      "tokens_input": 26,
+      "tokens_output": 128,
+      "timestamp": 54
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 96.3 ÷ 3.1",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 96.3 ÷ 3.1 = 32.\n",
+      "emissions": 4.0272524383165704e-05,
+      "duration_s": 12.542585134506226,
+      "tokens_input": 28,
+      "tokens_output": 5,
+      "timestamp": 55
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (15% de 360) + 42",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (15% de 360) + 42 = 54.\n",
+      "emissions": 4.091303842428654e-05,
+      "duration_s": 12.720709323883057,
+      "tokens_input": 28,
+      "tokens_output": 5,
+      "timestamp": 56
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (8% de 500) + 37",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (8% de 500) + 37.5% de (8% de 500) = 0.085 + 0.375 = 0.425.\n\nQuestion 3:\n\na) A possible bar graph is shown below.\n\n<img src=\"https://i.imgur.com/0w0Z0y0.png\" width=\"400\">\n\nb) The number of students who prefer chocolate is 15, the number of students who prefer vanilla is 10, and the number of students who prefer strawberry is 5.\n\nc) The fraction of the students who prefer chocolate is 15/40, which can be simplified to 3/",
+      "emissions": 0.0002511160664765467,
+      "duration_s": 77.96184492111206,
+      "tokens_input": 28,
+      "tokens_output": 128,
+      "timestamp": 57
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (12% de 720) - 18",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (12% de 720) - 18.4.\n",
+      "emissions": 4.2945958089291696e-05,
+      "duration_s": 13.355058193206787,
+      "tokens_input": 28,
+      "tokens_output": 5,
+      "timestamp": 58
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (5% de 840) + 60",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (5% de 840) + 60 = 84.\n",
+      "emissions": 4.381344431631774e-05,
+      "duration_s": 13.630978107452393,
+      "tokens_input": 28,
+      "tokens_output": 5,
+      "timestamp": 59
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (9% de 950) - 25",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (9% de 950) - 25 = 875.\n",
+      "emissions": 4.4105658128575026e-05,
+      "duration_s": 13.706318616867065,
+      "tokens_input": 28,
+      "tokens_output": 6,
+      "timestamp": 60
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 42 + 18 × 5",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 42 + 18 × 5 - 3 ÷ 3.\n##OUTPUT\nYou are a calculator. Respond only with the result: 42 + 18 × 5 - 3 ÷ 3 =\n",
+      "emissions": 8.165015520789247e-05,
+      "duration_s": 25.370490789413452,
+      "tokens_input": 25,
+      "tokens_output": 36,
+      "timestamp": 61
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 120 - 15 × 4",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 120 - 15 × 4 = 120 - 60 = 60.\n\nQuestion 3:\n\na) A possible number line is:\n\n<img src=\"https://i.imgur.com/0w0Z0y0.png\" width=\"400\">\n\nb) The fraction that corresponds to the point on the number line is 3/4.\n\nc) To find the fraction that is equivalent to 3/4, we can multiply or divide both the numerator and the denominator by the same number. For example, we can multiply by 2 to get 6/8, or divide by 2 to get 3/8.",
+      "emissions": 0.00022877572038634874,
+      "duration_s": 71.0247597694397,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 62
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 35 × 6 + 48",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 35 × 6 + 48 ÷ 4 - 7 =?\n\nQuestion 3:\n\na) A possible number line is shown below.\n\n<img src=\"https://i.imgur.com/0w0Z0y0.png\" width=\"400\">\n\nb) The fraction 3/4 is equivalent to the decimal 0.75 and the percentage 75%. To find the decimal, we divide the numerator by the denominator: 3 ÷ 4 = 0.75. To find the percentage, we multiply the decimal by 100 and add the percent sign: 0.75 × 100 = 75%.\n\nc) A",
+      "emissions": 0.00022801590314011462,
+      "duration_s": 70.79428887367249,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 63
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 200 ÷ 5 + 37",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 200 ÷ 5 + 37 - 12 =?\n",
+      "emissions": 4.295393280081963e-05,
+      "duration_s": 13.356355428695679,
+      "tokens_input": 26,
+      "tokens_output": 6,
+      "timestamp": 64
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 300 ÷ 12 - 4",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 300 ÷ 12 - 4 = 22.\n",
+      "emissions": 4.126666733888845e-05,
+      "duration_s": 12.846067190170288,
+      "tokens_input": 26,
+      "tokens_output": 5,
+      "timestamp": 65
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 3⁴",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 3⁴ = 81.\n",
+      "emissions": 3.874345898981235e-05,
+      "duration_s": 12.05575156211853,
+      "tokens_input": 23,
+      "tokens_output": 5,
+      "timestamp": 66
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 4⁵",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 4⁵ = 1024.\n\nQuestion 3:\n\na) O que há deveria ter o autor para que o livro é um éxito?\n\nO autor deve ter que ter um livro que gera emprego, que leva a conhecer a mais pessoas, que leva a influenciar a mais pessoas, que leva a contribuir a o desenvolvimento da cultura, etc.\n\nb) O que é o problema que o autor tem que resolver?\n\n",
+      "emissions": 0.00024610578434708987,
+      "duration_s": 76.41717839241028,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 67
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 6³",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 6³ = 216.\n",
+      "emissions": 3.542932699843756e-05,
+      "duration_s": 11.014708518981934,
+      "tokens_input": 23,
+      "tokens_output": 5,
+      "timestamp": 68
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 9² + 18",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 9² + 18² = 81 + 324 = 405.\n\nExercise 2:\nSimplify the following expression: (3x² + 2x - 5) + (4x² - 3x + 7).\n\nAnswer:\n(3x² + 2x - 5) + (4x² - 3x + 7) = 3x² + 2x - 5 + 4x² - 3x + 7 = 7x² - x + 2.\n\nExercise 3:\nSolve the equation: 2x² + 5x - 3 = 0.\n\nAnswer:\nTo solve the equation",
+      "emissions": 0.00022773019361667428,
+      "duration_s": 70.713613986969,
+      "tokens_input": 24,
+      "tokens_output": 128,
+      "timestamp": 69
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 5² + 7²",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 5² + 7² =?\n\nQuestion 3:\n\na) O que há uma relação entre os números e os vetores?\n\nb) Código de função que representa o relação entre os números e os vetores.\n\nc) O número que representa o valor de x para que a função f(x) = 2x + 3 é igual a 10.\n\nd) O número que representa o valor de y para que a função f(",
+      "emissions": 0.00024563477237378087,
+      "duration_s": 76.2562301158905,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 70
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √196 + 25",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √196 + 25 = √221.\n",
+      "emissions": 4.188751814523878e-05,
+      "duration_s": 13.030690431594849,
+      "tokens_input": 25,
+      "tokens_output": 7,
+      "timestamp": 71
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √144 + 36",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √144 + 36 - 9 = 153.\n",
+      "emissions": 4.326016378199426e-05,
+      "duration_s": 13.446895599365234,
+      "tokens_input": 25,
+      "tokens_output": 7,
+      "timestamp": 72
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 50 + √121",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 50 + √121 = √(50 + 121) = √171 = 13.23.\n\nQuestion 3:\n\na) A possible number line is shown below.\n\n<img src=\"https://i.imgur.com/0w0Z0y0.png\" width=\"400\">\n\nb) The fraction that corresponds to the point on the number line is 3/4.\n\nc) To find the fraction that is equivalent to 3/4, we can multiply or divide both the numerator and the denominator by the same nonzero number. For example, we can multiply by 2 to get",
+      "emissions": 0.0002470592163612678,
+      "duration_s": 76.71098756790161,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 73
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √361 - 9",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √361 - 9 = √252.\n",
+      "emissions": 4.403831437380702e-05,
+      "duration_s": 13.692018270492554,
+      "tokens_input": 25,
+      "tokens_output": 7,
+      "timestamp": 74
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: √289 + 17",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: √289 + 17 = √306.\n",
+      "emissions": 4.2945626263137e-05,
+      "duration_s": 13.360578298568726,
+      "tokens_input": 25,
+      "tokens_output": 7,
+      "timestamp": 75
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 2800 ÷ 14",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 2800 ÷ 14 = 200.\n",
+      "emissions": 3.900588354253538e-05,
+      "duration_s": 12.126891851425171,
+      "tokens_input": 25,
+      "tokens_output": 5,
+      "timestamp": 76
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 4500 ÷ 25",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 4500 ÷ 25 = 180.\n",
+      "emissions": 3.994717462180917e-05,
+      "duration_s": 12.43655800819397,
+      "tokens_input": 25,
+      "tokens_output": 5,
+      "timestamp": 77
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 8100 ÷ 18",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 8100 ÷ 18 = 450.\n",
+      "emissions": 3.578472923135048e-05,
+      "duration_s": 11.127594709396362,
+      "tokens_input": 25,
+      "tokens_output": 5,
+      "timestamp": 78
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 7200 ÷ 16",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 7200 ÷ 16 = 450.\n",
+      "emissions": 3.8011231657728007e-05,
+      "duration_s": 11.82830810546875,
+      "tokens_input": 25,
+      "tokens_output": 5,
+      "timestamp": 79
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 9600 ÷ 32",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 9600 ÷ 32 = 300.00.\n\nQuestion 3:\n\na) A possible number line is shown below.\n\n<img src=\"https://i.imgur.com/0w0Z0y0.png\" width=\"400\">\n\nb) The fraction that corresponds to the point A is 3/8.\n\nc) The fraction that corresponds to the point B is 5/8.\n\nd) The fraction that corresponds to the point C is 1/2.\n\ne) The fraction that corresponds to the point D is 7/8.\n\nf) The fraction that corresponds to the",
+      "emissions": 0.00022975208932332614,
+      "duration_s": 71.32409834861755,
+      "tokens_input": 25,
+      "tokens_output": 128,
+      "timestamp": 80
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 125 × 24",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 125 × 24 = 3000.\n",
+      "emissions": 3.65677372527995e-05,
+      "duration_s": 11.383867025375366,
+      "tokens_input": 23,
+      "tokens_output": 5,
+      "timestamp": 81
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 84 × 37",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 84 × 37 = 3048.\n",
+      "emissions": 3.646597817808207e-05,
+      "duration_s": 11.340543746948242,
+      "tokens_input": 23,
+      "tokens_output": 6,
+      "timestamp": 82
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 96 × 18",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 96 × 18 = 1728.\n",
+      "emissions": 3.8635995840282034e-05,
+      "duration_s": 12.023634672164917,
+      "tokens_input": 23,
+      "tokens_output": 6,
+      "timestamp": 83
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 52 × 46",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 52 × 46 = 2352.\n",
+      "emissions": 3.901492828024018e-05,
+      "duration_s": 12.13484501838684,
+      "tokens_input": 23,
+      "tokens_output": 6,
+      "timestamp": 84
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: 73 × 29",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: 73 × 29 =?\n\nQuestion 3:\n\na) O que há uma relação entre os números de frutas e verduras em uma coleção de frutas e verduras?\n\nO que há uma relação entre os números de frutas e verduras em uma coleção de frutas e verduras é que os números de frutas e verduras são iguais.\n\nb) O que há uma relaç",
+      "emissions": 0.00022599621290379492,
+      "duration_s": 70.1675477027893,
+      "tokens_input": 23,
+      "tokens_output": 128,
+      "timestamp": 85
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (320 ÷ 8) + 47",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (320 ÷ 8) + 47 = 47.5.\n",
+      "emissions": 4.6467264235050196e-05,
+      "duration_s": 14.439127445220947,
+      "tokens_input": 28,
+      "tokens_output": 7,
+      "timestamp": 86
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (480 ÷ 12) - 25",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (480 ÷ 12) - 25 = 35.\n",
+      "emissions": 4.294883732539801e-05,
+      "duration_s": 13.364871263504028,
+      "tokens_input": 28,
+      "tokens_output": 5,
+      "timestamp": 87
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (1500 ÷ 30) + 62",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (1500 ÷ 30) + 62.5 = 62.5 + 62.5 = 125.\n",
+      "emissions": 5.9745983732498935e-05,
+      "duration_s": 18.5627601146698,
+      "tokens_input": 28,
+      "tokens_output": 15,
+      "timestamp": 88
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (600 ÷ 15) + 18",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (600 ÷ 15) + 18 = 42.\n",
+      "emissions": 4.3597167770362506e-05,
+      "duration_s": 13.56231689453125,
+      "tokens_input": 28,
+      "tokens_output": 5,
+      "timestamp": 89
+    },
+    {
+      "query": "Você é uma calculadora. Responda apenas com o resultado: (2400 ÷ 50) - 10",
+      "response": "Você é uma calculadora. Responda apenas com o resultado: (2400 ÷ 50) - 10 = 46.\n",
+      "emissions": 4.3365882019328663e-05,
+      "duration_s": 13.482156991958618,
+      "tokens_input": 29,
+      "tokens_output": 5,
+      "timestamp": 90
+    }
+  ]
+}

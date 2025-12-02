@@ -1,305 +1,331 @@
 import os
-import json
-import argparse
 import time
-from dataclasses import dataclass, asdict
-from typing import List
+import json
 
-import torch
+import psutil
+from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from codecarbon import EmissionsTracker
-from tqdm import tqdm
 
 
-# Identificação do modelo
-MODEL_KEY = "phi2"
-MODEL_ID = "microsoft/phi-2"
-TRUST_REMOTE_CODE = True  # recomendado para o phi-2
+# Modelo Phi local (baseline)
+MODEL_NAME = "microsoft/phi-2"  # você pode trocar por Phi-3 se tiver VRAM/CPU
+DEVICE = "cpu"
+QUERIES_FILE = "data/queries.txt"
+RESULTS_FILE = "results/environmental_data_phi_2_baseline.json"
+
+MAX_NEW_TOKENS = 64
+MEASURE_POWER_SECS = 1
+
+USE_RAG = True  # Altere para True para executar com RAG
+
+EMISSION_FACTOR_KG_PER_KWH = 0.1295  # fator médio Brasil
 
 
-# Parâmetros de geração padronizados para todos os modelos
-GEN_KWARGS = {
-    "max_new_tokens": 128,
-    "temperature": 0.0,   # determinístico
-    "do_sample": False,
-    "top_p": 1.0,
-}
-
-
-@dataclass
-class QueryRecord:
-    """
-    Registro de uma única query no benchmark.
-    """
-    query: str           # texto da query
-    response: str        # resposta completa do modelo
-    emissions: float     # emissões em kg CO2eq (CodeCarbon)
-    duration_s: float    # tempo de execução da query (segundos)
-    tokens_input: int    # número de tokens na entrada
-    tokens_output: int   # número de tokens gerados
-    timestamp: int       # ordem de execução (1..N)
-
-
-@dataclass
-class ModelRunResult:
-    """
-    Resultado agregado do benchmark de um modelo.
-    """
-    model_hf_id: str
-    model_key: str
-    device: str
-    total_queries: int
-    total_emissions: float      # soma das emissões de todas as queries
-    total_time_s: float         # soma dos tempos de todas as queries
-    avg_time_s_per_query: float # média de tempo por query
-    query_history: List[QueryRecord]
-
-
-def load_queries(path: str) -> List[str]:
-    """
-    Carrega as queries de um arquivo texto, uma por linha.
-    Limita a 100 queries para padronizar o experimento.
-    """
-    if not os.path.exists(path):
-        raise FileNotFoundError(f"Arquivo de queries não encontrado: {path}")
+def load_queries(path: str):
     with open(path, "r", encoding="utf-8") as f:
-        lines = [line.strip() for line in f.readlines()]
-    queries = [l for l in lines if l]
-    if len(queries) == 0:
-        raise ValueError("Arquivo de queries está vazio.")
-    if len(queries) > 100:
-        queries = queries[:100]
-    return queries
+        return [line.strip() for line in f if line.strip()]
 
 
-def load_model_and_tokenizer(device: str):
-    """
-    Carrega o modelo e o tokenizer no dispositivo especificado (cpu ou cuda).
-    Usamos torch_dtype='auto' e low_cpu_mem_usage=True para reduzir o pico de RAM.
-    """
-    print(f"\n🔄 Carregando modelo: {MODEL_ID} (device={device})")
-
-    if device == "cuda":
-        if not torch.cuda.is_available():
-            raise RuntimeError("CUDA não está disponível, mas device='cuda' foi solicitado.")
-        torch_dtype = "auto"   # deixa a HF escolher (geralmente float16 na GPU)
-        device_arg = "cuda"
-        device_map = {"": 0}
-    else:
-        torch_dtype = "auto"   # deixa a HF escolher em CPU também
-        device_arg = "cpu"
-        device_map = None
-
-    tokenizer = AutoTokenizer.from_pretrained(
-        MODEL_ID,
-        trust_remote_code=TRUST_REMOTE_CODE
+def load_model_and_tokenizer():
+    print(f"\n=== Carregando modelo: {MODEL_NAME} (device={DEVICE}) ===")
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, trust_remote_code=True)
+    model = AutoModelForCausalLM.from_pretrained(
+        MODEL_NAME,
+        trust_remote_code=True,
     )
-    # Alguns modelos não têm pad_token definido: usamos eos_token como pad
+
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
 
-    # low_cpu_mem_usage ajuda a aliviar o pico de RAM no carregamento
-    model = AutoModelForCausalLM.from_pretrained(
-        MODEL_ID,
-        trust_remote_code=TRUST_REMOTE_CODE,
-        torch_dtype=torch_dtype,
-        low_cpu_mem_usage=True,
-        device_map=device_map
+    model.to(DEVICE)
+    return model, tokenizer
+
+
+def retrieve_documents(query: str):
+    if not USE_RAG:
+        return []
+    return [
+        f"Contexto simulado de RAG para {MODEL_NAME}.",
+        "Substitua esta função por uma busca real em base vetorial/documental.",
+    ]
+
+
+def build_prompt(query: str, context_text: str):
+    if not USE_RAG or not context_text:
+        return (
+            "Você é uma calculadora. Responda SOMENTE com o resultado numérico final.\n"
+            f"Pergunta: {query}"
+        )
+
+    return (
+        "Você é uma calculadora. Utilize o contexto abaixo apenas se for necessário "
+        "para obter o resultado numérico final.\n\n"
+        f"Contexto:\n{context_text}\n\n"
+        f"Pergunta:\n{query}"
     )
 
-    if device_map is None:
-        model.to(device_arg)
 
-    model.eval()
-    print(f"✅ Modelo {MODEL_ID} carregado em {device_arg}")
-    return model, tokenizer, device_arg
+def run_model_on_queries(model, tokenizer, queries):
+    mode_str = "rag" if USE_RAG else "baseline"
+    print(f"\n[Modo de execução] {mode_str.upper()}")
 
+    print("\n[Warm-up] Executando algumas queries sem medir emissões...")
+    warmup_n = min(5, len(queries))
+    for q in queries[:warmup_n]:
+        docs = retrieve_documents(q)
+        context_text = "\n".join(docs) if docs else ""
+        prompt = build_prompt(q, context_text)
+        inputs = tokenizer(prompt, return_tensors="pt").to(DEVICE)
+        _ = model.generate(**inputs, max_new_tokens=8)
 
-def run_model_on_queries(
-    queries: List[str],
-    device: str,
-    country_iso_code: str | None = None
-) -> ModelRunResult:
-    """
-    Executa o modelo sobre a lista de queries, medindo emissões e tempo por query.
-    """
-    model, tokenizer, device_arg = load_model_and_tokenizer(device=device)
+    print("\n[Benchmark] Iniciando medição energética com CodeCarbon...")
+    tracker = EmissionsTracker(
+        measure_power_secs=MEASURE_POWER_SECS,
+        log_level="error",
+        save_to_file=False,
+    )
 
-    # Warm-up (não é medido energeticamente)
-    n_warmup = min(5, len(queries))
-    if n_warmup > 0:
-        print(f"🔥 Warm-up com {n_warmup} queries (sem medir emissões)...")
-        for q in queries[:n_warmup]:
-            inputs = tokenizer(q, return_tensors="pt").to(device_arg)
-            with torch.no_grad():
-                _ = model.generate(**inputs, **GEN_KWARGS)
+    tracker.start()
 
-    print(f"\n⚡ Iniciando medição energética para {len(queries)} queries "
-          f"({MODEL_KEY}, device={device_arg})")
+    query_history = []
+    wallclock_start = time.time()
 
-    query_history: List[QueryRecord] = []
-    total_emissions = 0.0
-    total_time_s = 0.0
+    process = psutil.Process(os.getpid())
+    max_ram_mb = 0.0
 
-    for idx, q in enumerate(tqdm(queries, desc=f"Queries {MODEL_KEY}"), start=1):
-        tracker_kwargs = {
-            "project_name": f"{MODEL_KEY}_query",
-            "measure_power_secs": 1,
-            "log_level": "error",
-            # Se quiser CSV do CodeCarbon por query, descomente:
-            # "save_to_file": True,
-            # "output_dir": "results",
-            # "output_file": f"{MODEL_KEY}_per_query.csv",
-        }
-        if country_iso_code:
-            tracker_kwargs["country_iso_code"] = country_iso_code
+    for idx, query in enumerate(
+        tqdm(queries, desc=f"Queries {MODEL_NAME} ({mode_str})"),
+        start=1
+    ):
+        t0 = time.time()
 
-        query_tracker = EmissionsTracker(**tracker_kwargs)
+        retr_start = time.time()
+        docs = retrieve_documents(query)
+        retr_end = time.time()
+        retrieval_time_s = retr_end - retr_start
 
-        start_time = time.time()
-        query_tracker.start()
+        context_text = "\n".join(docs) if docs else ""
+        context_tokens = 0
+        if context_text:
+            ctx_ids = tokenizer(
+                context_text,
+                return_tensors="pt",
+                truncation=True,
+                max_length=512,
+            )["input_ids"]
+            context_tokens = int(ctx_ids.shape[-1])
 
-        # Preparação da entrada
-        inputs = tokenizer(q, return_tensors="pt").to(device_arg)
-        n_tokens_input = inputs["input_ids"].shape[1]
+        prompt = build_prompt(query, context_text)
 
-        # Geração
-        with torch.no_grad():
-            generated_ids = model.generate(**inputs, **GEN_KWARGS)
+        mem_info_before = process.memory_info()
+        ram_mb_before = mem_info_before.rss / (1024 * 1024)
 
-        emissions = query_tracker.stop()
-        end_time = time.time()
+        inputs = tokenizer(prompt, return_tensors="pt").to(DEVICE)
+        tokens_input = inputs["input_ids"].shape[-1]
 
-        duration_s = end_time - start_time
-        total_time_s += duration_s
-        total_emissions += emissions
-
-        # Decodifica texto completo gerado (entrada + saída)
-        full_text = tokenizer.decode(
-            generated_ids[0],
-            skip_special_tokens=True
+        gen_start = time.time()
+        outputs = model.generate(
+            **inputs,
+            max_new_tokens=MAX_NEW_TOKENS,
+            pad_token_id=tokenizer.eos_token_id,
         )
-        # Tokens de saída = total gerado - tokens de entrada
-        n_tokens_output = generated_ids[0].shape[0] - n_tokens_input
+        gen_end = time.time()
+
+        generation_time_s = gen_end - gen_start
+        duration_s = gen_end - t0
+
+        mem_info_after = process.memory_info()
+        ram_mb_after = mem_info_after.rss / (1024 * 1024)
+        ram_mb = max(ram_mb_before, ram_mb_after)
+        if ram_mb > max_ram_mb:
+            max_ram_mb = ram_mb
+
+        decoded = tokenizer.decode(outputs[0], skip_special_tokens=True)
+        tokens_output = outputs.shape[-1] - tokens_input
 
         query_history.append(
-            QueryRecord(
-                query=q,
-                response=full_text,
-                emissions=emissions,
-                duration_s=duration_s,
-                tokens_input=n_tokens_input,
-                tokens_output=n_tokens_output,
-                timestamp=idx
-            )
+            {
+                "timestamp": idx,
+                "mode": mode_str,
+                "query": query,
+                "response": decoded,
+                "duration_s": float(duration_s),
+                "retrieval_time_s": float(retrieval_time_s),
+                "generation_time_s": float(generation_time_s),
+                "context_tokens": int(context_tokens),
+                "tokens_input": int(tokens_input),
+                "tokens_output": int(tokens_output),
+                "ram_mb": float(ram_mb),
+                "emissions": None,
+                "energy_kwh": None,
+                "power_w": None,
+                "co2_kg_per_token_output": None,
+                "energy_kwh_per_token_output": None,
+            }
         )
 
-    avg_time_s_per_query = total_time_s / len(queries)
+    emissions_data = tracker.stop()
+    wallclock_end = time.time()
+    wallclock_duration_s = wallclock_end - wallclock_start
 
-    return ModelRunResult(
-        model_hf_id=MODEL_ID,
-        model_key=MODEL_KEY,
-        device=device_arg,
-        total_queries=len(queries),
-        total_emissions=total_emissions,
-        total_time_s=total_time_s,
-        avg_time_s_per_query=avg_time_s_per_query,
-        query_history=query_history
+    total_emissions_kg = None
+    total_energy_kwh = None
+    total_duration_s = None
+
+    if isinstance(emissions_data, (int, float)):
+        total_emissions_kg = float(emissions_data)
+        total_duration_s = wallclock_duration_s
+    elif emissions_data is not None:
+        total_emissions_kg = getattr(emissions_data, "emissions", None)
+        total_energy_kwh = getattr(emissions_data, "energy_consumed", None)
+        total_duration_s = getattr(emissions_data, "duration", None)
+
+    if total_emissions_kg is None:
+        fed = getattr(tracker, "final_emissions_data", None)
+        if fed is not None:
+            if total_emissions_kg is None:
+                total_emissions_kg = getattr(fed, "emissions", None)
+            if total_energy_kwh is None:
+                total_energy_kwh = getattr(fed, "energy_consumed", None)
+            if total_duration_s is None:
+                total_duration_s = getattr(fed, "duration", None)
+
+    if total_energy_kwh is None and total_emissions_kg is not None:
+        total_energy_kwh = total_emissions_kg / EMISSION_FACTOR_KG_PER_KWH
+
+    avg_power_w = None
+    if total_energy_kwh is not None and total_duration_s and total_duration_s > 0:
+        avg_power_w = (total_energy_kwh * 3_600_000) / total_duration_s
+
+    sum_durations = sum(q["duration_s"] for q in query_history) or 0.0
+
+    for q in query_history:
+        if sum_durations > 0 and q["duration_s"] > 0:
+            frac = q["duration_s"] / sum_durations
+        else:
+            frac = None
+
+        q_energy_kwh = None
+        q_emissions = None
+        q_power_w = None
+
+        if frac is not None:
+            if total_energy_kwh is not None:
+                q_energy_kwh = total_energy_kwh * frac
+                q_power_w = (q_energy_kwh * 3_600_000) / q["duration_s"]
+            if total_emissions_kg is not None:
+                q_emissions = total_emissions_kg * frac
+
+        q["energy_kwh"] = float(q_energy_kwh) if q_energy_kwh is not None else None
+        q["emissions"] = float(q_emissions) if q_emissions is not None else None
+        q["power_w"] = float(q_power_w) if q_power_w is not None else None
+
+        if q["tokens_output"] > 0 and q_emissions is not None:
+            q["co2_kg_per_token_output"] = float(q_emissions / q["tokens_output"])
+        else:
+            q["co2_kg_per_token_output"] = None
+
+        if q["tokens_output"] > 0 and q_energy_kwh is not None:
+            q["energy_kwh_per_token_output"] = float(
+                q_energy_kwh / q["tokens_output"]
+            )
+        else:
+            q["energy_kwh_per_token_output"] = None
+
+    total_tokens_input = sum(q["tokens_input"] for q in query_history)
+    total_tokens_output = sum(q["tokens_output"] for q in query_history)
+    total_tokens = total_tokens_input + total_tokens_output
+    total_context_tokens = sum(q["context_tokens"] for q in query_history)
+
+    avg_ram_mb = (
+        sum(q["ram_mb"] for q in query_history) / len(query_history)
+        if query_history
+        else None
     )
 
+    co2_per_token_output = (
+        float(total_emissions_kg) / total_tokens_output
+        if total_emissions_kg is not None and total_tokens_output > 0
+        else None
+    )
 
-def save_model_run_to_json(run: ModelRunResult, output_path: str):
-    """
-    Salva o resultado completo do benchmark em um arquivo JSON.
-    """
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    co2_per_token_total = (
+        float(total_emissions_kg) / total_tokens
+        if total_emissions_kg is not None and total_tokens > 0
+        else None
+    )
 
-    data = {
-        "model": run.model_hf_id,
-        "model_key": run.model_key,
-        "device": run.device,
-        "total_queries": run.total_queries,
-        "total_emissions": run.total_emissions,
-        "total_time_s": run.total_time_s,
-        "avg_time_s_per_query": run.avg_time_s_per_query,
-        "query_history": [
-            asdict(q) for q in run.query_history
-        ]
+    energy_kwh_per_token_total = (
+        float(total_energy_kwh) / total_tokens
+        if total_energy_kwh is not None and total_tokens > 0
+        else None
+    )
+
+    results = {
+        "model": MODEL_NAME,
+        "device": DEVICE,
+        "mode": mode_str,
+        "total_queries": len(query_history),
+        "total_emissions_kg": float(total_emissions_kg)
+        if total_emissions_kg is not None
+        else None,
+        "total_energy_kwh": float(total_energy_kwh)
+        if total_energy_kwh is not None
+        else None,
+        "total_time_s_codecarbon": float(total_duration_s)
+        if total_duration_s is not None
+        else None,
+        "total_time_s_wallclock": float(wallclock_duration_s),
+        "avg_emissions_kg_per_query": float(total_emissions_kg) / len(query_history)
+        if total_emissions_kg is not None and len(query_history) > 0
+        else None,
+        "avg_time_s_per_query": float(sum_durations) / len(query_history)
+        if len(query_history) > 0
+        else None,
+        "avg_power_w": float(avg_power_w) if avg_power_w is not None else None,
+        "total_tokens_input": int(total_tokens_input),
+        "total_tokens_output": int(total_tokens_output),
+        "total_tokens": int(total_tokens),
+        "total_context_tokens": int(total_context_tokens),
+        "co2_kg_per_token_output": co2_per_token_output,
+        "co2_kg_per_token_total": co2_per_token_total,
+        "energy_kwh_per_token_total": energy_kwh_per_token_total,
+        "avg_ram_mb": float(avg_ram_mb) if avg_ram_mb is not None else None,
+        "max_ram_mb": float(max_ram_mb),
+        "query_history": query_history,
     }
 
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
-    print(f"💾 JSON salvo: {output_path}")
-    print(f"   • total_emissions = {run.total_emissions:.6f} kg CO₂")
-    print(f"   • total_time_s    = {run.total_time_s:.2f} s")
-    print(f"   • total_queries   = {run.total_queries}")
-    print(f"   • avg_time/query  = {run.avg_time_s_per_query:.2f} s")
-
-
-def parse_args():
-    parser = argparse.ArgumentParser(
-        description="Benchmark energético do modelo Phi-2 (microsoft/phi-2)."
-    )
-    parser.add_argument(
-        "--queries_path",
-        type=str,
-        default=os.path.join("data", "queries.txt"),
-        help="Caminho para o arquivo com as queries (uma por linha).",
-    )
-    parser.add_argument(
-        "--results_dir",
-        type=str,
-        default=os.path.join("results"),
-        help="Diretório de saída para o JSON.",
-    )
-    parser.add_argument(
-        "--device",
-        type=str,
-        choices=["cpu", "cuda"],
-        default="cpu",
-        help="Dispositivo para executar o modelo (cpu ou cuda).",
-    )
-    parser.add_argument(
-        "--country_iso_code",
-        type=str,
-        default=None,
-        help="Código ISO do país (ex: 'BRA') para o CodeCarbon (opcional)."
-    )
-    return parser.parse_args()
+    return results
 
 
 def main():
-    args = parse_args()
+    os.makedirs(os.path.dirname(RESULTS_FILE), exist_ok=True)
 
-    print("=== BENCHMARK ENERGÉTICO - Phi-2 (microsoft/phi-2) ===")
-    print(f"Device       : {args.device}")
-    print(f"Queries file : {args.queries_path}")
-    print(f"Results dir  : {args.results_dir}")
-    print("======================================================\n")
+    mode_str = "rag" if USE_RAG else "baseline"
+    print(f"=== BENCHMARK ENERGÉTICO - {MODEL_NAME} ===")
+    print(f"Device       : {DEVICE}")
+    print(f"Mode         : {mode_str}")
+    print(f"Queries file : {QUERIES_FILE}")
+    print(f"Results file : {RESULTS_FILE}")
+    print("====================================\n")
 
-    # Para evitar stress de threads no carregamento, usamos poucas threads
-    torch.set_num_threads(2)
+    queries = load_queries(QUERIES_FILE)
+    print(f"Total de queries: {len(queries)}")
 
-    queries = load_queries(args.queries_path)
-    print(f"Total de queries carregadas: {len(queries)}\n")
+    model, tokenizer = load_model_and_tokenizer()
 
-    run_result = run_model_on_queries(
-        queries=queries,
-        device=args.device,
-        country_iso_code=args.country_iso_code,
-    )
+    results = run_model_on_queries(model, tokenizer, queries)
 
-    json_name = f"environmental_data_{MODEL_KEY}.json"
-    output_path = os.path.join(args.results_dir, json_name)
-    save_model_run_to_json(run_result, output_path)
+    with open(RESULTS_FILE, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(
-        f"\nResumo {MODEL_KEY}: "
-        f"total_emissions={run_result.total_emissions:.6f} kg CO₂ | "
-        f"total_time={run_result.total_time_s:.2f} s | "
-        f"avg_time/query={run_result.avg_time_s_per_query:.2f} s\n"
-    )
+    print(f"\nResultados salvos em: {RESULTS_FILE}")
+    print(f"Emissões totais (kg CO2): {results['total_emissions_kg']}")
+    print(f"Energia total (kWh)     : {results['total_energy_kwh']}")
+    print(f"Potência média (W)      : {results['avg_power_w']}")
+    print(f"RAM média (MB)          : {results['avg_ram_mb']}")
+    print(f"RAM máxima (MB)         : {results['max_ram_mb']}")
 
 
 if __name__ == "__main__":

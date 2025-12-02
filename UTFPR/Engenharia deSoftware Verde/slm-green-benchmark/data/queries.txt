@@ -1,107 +1,109 @@
-Você é uma calculadora. Responda apenas com o resultado: 27 + 58
 Você é uma calculadora. Responda apenas com o resultado: 184 + 219
-Você é uma calculadora. Responda apenas com o resultado: 375 + 628
-Você é uma calculadora. Responda apenas com o resultado: 42 + 97
-Você é uma calculadora. Responda apenas com o resultado: 815 + 164
-
-Você é uma calculadora. Responda apenas com o resultado: 99 - 27
-Você é uma calculadora. Responda apenas com o resultado: 450 - 128
 Você é uma calculadora. Responda apenas com o resultado: 1000 - 487
-Você é uma calculadora. Responda apenas com o resultado: 742 - 195
-Você é uma calculadora. Responda apenas com o resultado: 600 - 289
-
-Você é uma calculadora. Responda apenas com o resultado: 14 × 16
-Você é uma calculadora. Responda apenas com o resultado: 27 × 34
-Você é uma calculadora. Responda apenas com o resultado: 52 × 18
 Você é uma calculadora. Responda apenas com o resultado: 75 × 23
 Você é uma calculadora. Responda apenas com o resultado: 128 × 19
-
-Você é uma calculadora. Responda apenas com o resultado: 144 ÷ 12
-Você é uma calculadora. Responda apenas com o resultado: 525 ÷ 21
-Você é uma calculadora. Responda apenas com o resultado: 1560 ÷ 24
-Você é uma calculadora. Responda apenas com o resultado: 1875 ÷ 15
 Você é uma calculadora. Responda apenas com o resultado: 980 ÷ 28
-
-Você é uma calculadora. Responda apenas com o resultado: 15% de 240
-Você é uma calculadora. Responda apenas com o resultado: 12% de 850
-Você é uma calculadora. Responda apenas com o resultado: 9% de 430
 Você é uma calculadora. Responda apenas com o resultado: 25% de 320
-Você é uma calculadora. Responda apenas com o resultado: 7% de 910
-
-Você é uma calculadora. Responda apenas com o resultado: 345 + 219 - 87
-Você é uma calculadora. Responda apenas com o resultado: 720 - 295 + 84
 Você é uma calculadora. Responda apenas com o resultado: 1250 - 275 + 450
-Você é uma calculadora. Responda apenas com o resultado: 932 + 518 - 300
-Você é uma calculadora. Responda apenas com o resultado: 4500 - 1200 + 375
-
-Você é uma calculadora. Responda apenas com o resultado: (24 × 12) ÷ 8
-Você é uma calculadora. Responda apenas com o resultado: (75 × 9) ÷ 15
-Você é uma calculadora. Responda apenas com o resultado: (132 ÷ 6) × 14
 Você é uma calculadora. Responda apenas com o resultado: (64 ÷ 8) × 22
-Você é uma calculadora. Responda apenas com o resultado: (85 × 6) ÷ 10
-
-Você é uma calculadora. Responda apenas com o resultado: 2³
-Você é uma calculadora. Responda apenas com o resultado: 5³
-Você é uma calculadora. Responda apenas com o resultado: 7²
 Você é uma calculadora. Responda apenas com o resultado: 12²
-Você é uma calculadora. Responda apenas com o resultado: 15²
-
-Você é uma calculadora. Responda apenas com o resultado: √81
-Você é uma calculadora. Responda apenas com o resultado: √256
-Você é uma calculadora. Responda apenas com o resultado: √169
-Você é uma calculadora. Responda apenas com o resultado: √225
-Você é uma calculadora. Responda apenas com o resultado: √400
-
-Você é uma calculadora. Responda apenas com o resultado: 34.5 + 28.7
-Você é uma calculadora. Responda apenas com o resultado: 125.25 + 89.75
-Você é uma calculadora. Responda apenas com o resultado: 90.6 - 45.3
 Você é uma calculadora. Responda apenas com o resultado: 300.75 - 128.40
-Você é uma calculadora. Responda apenas com o resultado: 15.5 × 4.2
 
-Você é uma calculadora. Responda apenas com o resultado: 84.4 ÷ 4
-Você é uma calculadora. Responda apenas com o resultado: 125.6 ÷ 3.2
-Você é uma calculadora. Responda apenas com o resultado: 18.75 ÷ 2.5
-Você é uma calculadora. Responda apenas com o resultado: 430.5 ÷ 12
-Você é uma calculadora. Responda apenas com o resultado: 96.3 ÷ 3.1
+Você é uma calculadora. Responda apenas com o resultado: 184 + 219
+Você é uma calculadora. Responda apenas com o resultado: 1000 - 487
+Você é uma calculadora. Responda apenas com o resultado: 75 × 23
+Você é uma calculadora. Responda apenas com o resultado: 128 × 19
+Você é uma calculadora. Responda apenas com o resultado: 980 ÷ 28
+Você é uma calculadora. Responda apenas com o resultado: 25% de 320
+Você é uma calculadora. Responda apenas com o resultado: 1250 - 275 + 450
+Você é uma calculadora. Responda apenas com o resultado: (64 ÷ 8) × 22
+Você é uma calculadora. Responda apenas com o resultado: 12²
+Você é uma calculadora. Responda apenas com o resultado: 300.75 - 128.40
 
-Você é uma calculadora. Responda apenas com o resultado: (15% de 360) + 42
-Você é uma calculadora. Responda apenas com o resultado: (8% de 500) + 37
-Você é uma calculadora. Responda apenas com o resultado: (12% de 720) - 18
-Você é uma calculadora. Responda apenas com o resultado: (5% de 840) + 60
-Você é uma calculadora. Responda apenas com o resultado: (9% de 950) - 25
+Você é uma calculadora. Responda apenas com o resultado: 184 + 219
+Você é uma calculadora. Responda apenas com o resultado: 1000 - 487
+Você é uma calculadora. Responda apenas com o resultado: 75 × 23
+Você é uma calculadora. Responda apenas com o resultado: 128 × 19
+Você é uma calculadora. Responda apenas com o resultado: 980 ÷ 28
+Você é uma calculadora. Responda apenas com o resultado: 25% de 320
+Você é uma calculadora. Responda apenas com o resultado: 1250 - 275 + 450
+Você é uma calculadora. Responda apenas com o resultado: (64 ÷ 8) × 22
+Você é uma calculadora. Responda apenas com o resultado: 12²
+Você é uma calculadora. Responda apenas com o resultado: 300.75 - 128.40
 
-Você é uma calculadora. Responda apenas com o resultado: 42 + 18 × 5
-Você é uma calculadora. Responda apenas com o resultado: 120 - 15 × 4
-Você é uma calculadora. Responda apenas com o resultado: 35 × 6 + 48
-Você é uma calculadora. Responda apenas com o resultado: 200 ÷ 5 + 37
-Você é uma calculadora. Responda apenas com o resultado: 300 ÷ 12 - 4
+Você é uma calculadora. Responda apenas com o resultado: 184 + 219
+Você é uma calculadora. Responda apenas com o resultado: 1000 - 487
+Você é uma calculadora. Responda apenas com o resultado: 75 × 23
+Você é uma calculadora. Responda apenas com o resultado: 128 × 19
+Você é uma calculadora. Responda apenas com o resultado: 980 ÷ 28
+Você é uma calculadora. Responda apenas com o resultado: 25% de 320
+Você é uma calculadora. Responda apenas com o resultado: 1250 - 275 + 450
+Você é uma calculadora. Responda apenas com o resultado: (64 ÷ 8) × 22
+Você é uma calculadora. Responda apenas com o resultado: 12²
+Você é uma calculadora. Responda apenas com o resultado: 300.75 - 128.40
 
-Você é uma calculadora. Responda apenas com o resultado: 3⁴
-Você é uma calculadora. Responda apenas com o resultado: 4⁵
-Você é uma calculadora. Responda apenas com o resultado: 6³
-Você é uma calculadora. Responda apenas com o resultado: 9² + 18
-Você é uma calculadora. Responda apenas com o resultado: 5² + 7²
+Você é uma calculadora. Responda apenas com o resultado: 184 + 219
+Você é uma calculadora. Responda apenas com o resultado: 1000 - 487
+Você é uma calculadora. Responda apenas com o resultado: 75 × 23
+Você é uma calculadora. Responda apenas com o resultado: 128 × 19
+Você é uma calculadora. Responda apenas com o resultado: 980 ÷ 28
+Você é uma calculadora. Responda apenas com o resultado: 25% de 320
+Você é uma calculadora. Responda apenas com o resultado: 1250 - 275 + 450
+Você é uma calculadora. Responda apenas com o resultado: (64 ÷ 8) × 22
+Você é uma calculadora. Responda apenas com o resultado: 12²
+Você é uma calculadora. Responda apenas com o resultado: 300.75 - 128.40
 
-Você é uma calculadora. Responda apenas com o resultado: √196 + 25
-Você é uma calculadora. Responda apenas com o resultado: √144 + 36
-Você é uma calculadora. Responda apenas com o resultado: 50 + √121
-Você é uma calculadora. Responda apenas com o resultado: √361 - 9
-Você é uma calculadora. Responda apenas com o resultado: √289 + 17
+Você é uma calculadora. Responda apenas com o resultado: 184 + 219
+Você é uma calculadora. Responda apenas com o resultado: 1000 - 487
+Você é uma calculadora. Responda apenas com o resultado: 75 × 23
+Você é uma calculadora. Responda apenas com o resultado: 128 × 19
+Você é uma calculadora. Responda apenas com o resultado: 980 ÷ 28
+Você é uma calculadora. Responda apenas com o resultado: 25% de 320
+Você é uma calculadora. Responda apenas com o resultado: 1250 - 275 + 450
+Você é uma calculadora. Responda apenas com o resultado: (64 ÷ 8) × 22
+Você é uma calculadora. Responda apenas com o resultado: 12²
+Você é uma calculadora. Responda apenas com o resultado: 300.75 - 128.40
 
-Você é uma calculadora. Responda apenas com o resultado: 2800 ÷ 14
-Você é uma calculadora. Responda apenas com o resultado: 4500 ÷ 25
-Você é uma calculadora. Responda apenas com o resultado: 8100 ÷ 18
-Você é uma calculadora. Responda apenas com o resultado: 7200 ÷ 16
-Você é uma calculadora. Responda apenas com o resultado: 9600 ÷ 32
+Você é uma calculadora. Responda apenas com o resultado: 184 + 219
+Você é uma calculadora. Responda apenas com o resultado: 1000 - 487
+Você é uma calculadora. Responda apenas com o resultado: 75 × 23
+Você é uma calculadora. Responda apenas com o resultado: 128 × 19
+Você é uma calculadora. Responda apenas com o resultado: 980 ÷ 28
+Você é uma calculadora. Responda apenas com o resultado: 25% de 320
+Você é uma calculadora. Responda apenas com o resultado: 1250 - 275 + 450
+Você é uma calculadora. Responda apenas com o resultado: (64 ÷ 8) × 22
+Você é uma calculadora. Responda apenas com o resultado: 12²
+Você é uma calculadora. Responda apenas com o resultado: 300.75 - 128.40
 
-Você é uma calculadora. Responda apenas com o resultado: 125 × 24
-Você é uma calculadora. Responda apenas com o resultado: 84 × 37
-Você é uma calculadora. Responda apenas com o resultado: 96 × 18
-Você é uma calculadora. Responda apenas com o resultado: 52 × 46
-Você é uma calculadora. Responda apenas com o resultado: 73 × 29
+Você é uma calculadora. Responda apenas com o resultado: 184 + 219
+Você é uma calculadora. Responda apenas com o resultado: 1000 - 487
+Você é uma calculadora. Responda apenas com o resultado: 75 × 23
+Você é uma calculadora. Responda apenas com o resultado: 128 × 19
+Você é uma calculadora. Responda apenas com o resultado: 980 ÷ 28
+Você é uma calculadora. Responda apenas com o resultado: 25% de 320
+Você é uma calculadora. Responda apenas com o resultado: 1250 - 275 + 450
+Você é uma calculadora. Responda apenas com o resultado: (64 ÷ 8) × 22
+Você é uma calculadora. Responda apenas com o resultado: 12²
+Você é uma calculadora. Responda apenas com o resultado: 300.75 - 128.40
 
-Você é uma calculadora. Responda apenas com o resultado: (320 ÷ 8) + 47
-Você é uma calculadora. Responda apenas com o resultado: (480 ÷ 12) - 25
-Você é uma calculadora. Responda apenas com o resultado: (1500 ÷ 30) + 62
-Você é uma calculadora. Responda apenas com o resultado: (600 ÷ 15) + 18
-Você é uma calculadora. Responda apenas com o resultado: (2400 ÷ 50) - 10
+Você é uma calculadora. Responda apenas com o resultado: 184 + 219
+Você é uma calculadora. Responda apenas com o resultado: 1000 - 487
+Você é uma calculadora. Responda apenas com o resultado: 75 × 23
+Você é uma calculadora. Responda apenas com o resultado: 128 × 19
+Você é uma calculadora. Responda apenas com o resultado: 980 ÷ 28
+Você é uma calculadora. Responda apenas com o resultado: 25% de 320
+Você é uma calculadora. Responda apenas com o resultado: 1250 - 275 + 450
+Você é uma calculadora. Responda apenas com o resultado: (64 ÷ 8) × 22
+Você é uma calculadora. Responda apenas com o resultado: 12²
+Você é uma calculadora. Responda apenas com o resultado: 300.75 - 128.40
+
+Você é uma calculadora. Responda apenas com o resultado: 184 + 219
+Você é uma calculadora. Responda apenas com o resultado: 1000 - 487
+Você é uma calculadora. Responda apenas com o resultado: 75 × 23
+Você é uma calculadora. Responda apenas com o resultado: 128 × 19
+Você é uma calculadora. Responda apenas com o resultado: 980 ÷ 28
+Você é uma calculadora. Responda apenas com o resultado: 25% de 320
+Você é uma calculadora. Responda apenas com o resultado: 1250 - 275 + 450
+Você é uma calculadora. Responda apenas com o resultado: (64 ÷ 8) × 22
+Você é uma calculadora. Responda apenas com o resultado: 12²
+Você é uma calculadora. Responda apenas com o resultado: 300.75 - 128.40

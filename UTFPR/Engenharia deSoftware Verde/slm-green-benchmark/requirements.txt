@@ -4,3 +4,4 @@ torch
 codecarbon
 tqdm
 openpyxl
+psutil

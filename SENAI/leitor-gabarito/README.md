@@ -100,6 +100,7 @@ Instale as dependências:
 pip install opencv-python numpy pandas easyocr pypdfium2 pillow
 ```
 Instale no local padrão da biblioteca.
+
 ---
 
 ## ▶️ Como usar

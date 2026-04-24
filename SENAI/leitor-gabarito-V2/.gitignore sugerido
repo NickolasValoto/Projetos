@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Saídas do programa
+*/debug/
+*/debug_temp/
+*/resultado_geral.csv
+*/pagina_*.jpg
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

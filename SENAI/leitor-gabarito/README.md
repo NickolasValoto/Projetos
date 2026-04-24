@@ -143,14 +143,17 @@ Exportação para Excel
 Interface mais avançada
 Versão executável (.exe)
 
+---
 
-## 👨‍💻 Autor
+## 🗃️ Licença
+
+```text
+MIT License
+```
+---
+
+## 🧐 Autor
 ### Desenvolvido por Nickolas Valoto
-
-
-## 📄 Licença
-
-Este projeto é de uso educacional e pode ser adaptado conforme necessidade.
 
 
 
